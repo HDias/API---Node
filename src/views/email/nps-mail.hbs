@@ -1,0 +1,58 @@
+<style>
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .value {
+        padding: 10px;
+        margin: 2px;
+        background-color: #8257e6;
+        color: #FFFFFF;
+        border-radius: 6px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .level {
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        width: 350px;
+    }
+    .answers {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+    }
+</style>
+
+<div class="container">
+    <label>Olá <strong>{{name}}</strong>! Tudo bem?</label>
+    <h3>{{title}}</h3>
+
+    <br />
+    <strong>{{description}}</strong>
+    
+    <div class="level">
+        <span>Pouco Provável</span>
+        <span>Muito Provável</span>
+    </div>
+
+    <div class="answers">
+        <a href="{{link}}/1?u={{survey_user_id}}" class="value">1</a>
+        <a href="{{link}}/2?u={{survey_user_id}}" class="value">2</a>
+        <a href="{{link}}/3?u={{survey_user_id}}" class="value">3</a>
+        <a href="{{link}}/4?u={{survey_user_id}}" class="value">4</a>
+        <a href="{{link}}/5?u={{survey_user_id}}" class="value">5</a>
+        <a href="{{link}}/6?u={{survey_user_id}}" class="value">6</a>
+        <a href="{{link}}/7?u={{survey_user_id}}" class="value">7</a>
+        <a href="{{link}}/8?u={{survey_user_id}}" class="value">8</a>
+        <a href="{{link}}/9?u={{survey_user_id}}" class="value">9</a>
+        <a href="{{link}}/10?u={{survey_user_id}}" class="value">10</a>
+    </div>0
+</div>
